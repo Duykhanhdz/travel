@@ -68,12 +68,14 @@ html{
 }
 
 .sale{
-    display: inline-block;
+    display: block;
+    width: 100px;
     position: relative;
     border-radius: 8px;
     background-color: red;
     padding: 7px 7px;
-    left: 43%;
+    left: 50%;
+    transform: translateX(-80%);
     bottom: 8%;
 }
 
